@@ -1,12 +1,13 @@
-Obrigado por usar o módulo. Para ver como instalar, Por favor acesse
-http://wiki.opcartstore.com/w/index.php/How_to_install_module_on_opencart_2.x and follow my guide.
+﻿Obrigado por usar o módulo. Para ver como instalar, Por favor acesse
+http://wiki.opcartstore.com/w/index.php/How_to_install_module_on_opencart_2.x e siga meu guia.
+(rode o arquivo SQL na Loja)
 
 
-If you have any issue, please create for me one ticket via:
+Se você tem alguma pergunta, por favor crie um chamado via:
 
 http://jira.opcartstore.com
 
 
-Also, if you interesting another my modules, please viti my page on opencart.com
+Also, se você se interessar por outros módulos, plor favor visite minha página on opencart.com
 
  http://www.opencart.com/index.php?route=extension/extension&filter_username=woccorp
