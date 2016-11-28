@@ -8,7 +8,8 @@
 
 class ModelModuleAdvNewsletter extends Model
 {
-    public function getEmails($data = array()) {
+    public function getEmails($data = array()) 
+    {
         $sql = "SELECT * FROM " . DB_PREFIX . "email_subscribed";
         $sql .= " WHERE 1";
         if (!empty($data['filter_email'])) {

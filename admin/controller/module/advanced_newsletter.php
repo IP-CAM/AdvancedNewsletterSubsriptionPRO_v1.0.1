@@ -104,7 +104,8 @@ class ControllerModuleAdvancedNewsletter extends Controller {
 
 		$this->response->setOutput($this->load->view($template, $data));
 	}
-    protected function getList() {
+    protected function getList() 
+    {
         if (isset($this->request->get['filter_email'])) {
             $filter_email = $this->request->get['filter_email'];
         } else {
@@ -125,9 +126,9 @@ class ControllerModuleAdvancedNewsletter extends Controller {
             'limit' => $this->config->get('config_limit_admin')
         );
 
-        $email_total = $this->model_module_adv_newsletter->getTotalEmails();
+        $email_total = $this->model_module_adv_newsletter->getTotalEmails($filter_data);
 
-        $results = $this->model_module_adv_newsletter->getEmails($filter_data);
+        $results = $this->model_module_adv_newsletter->getEmails( $filter_data );
 
         foreach ($results as $result) {
             $data['emails'][] = array(
